@@ -16,5 +16,6 @@ Preprocessed human genomic data, using the GATK pipeline:
    Due to the great size of the SAM file, I can not upload the full result of the aligned.sam file on here.
 
 4. Marking Duplicates after Alignments: using SAMTOOLS --> see mark_dup.bam 
-5. BQSR
-6. Variant calling 
+5. Base Quality Score Recalibration: scoring system sometimes make mistakes in scoring base quality, we use BQSR to adjust these scores
+   --> the result is sorted_dedup_bqsr_reads.bam
+7. Variant calling 
