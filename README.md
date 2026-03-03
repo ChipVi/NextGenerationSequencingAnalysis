@@ -1,5 +1,5 @@
 # NextGenerationSequencingAnalysis
-Preprocessed human genomic data, using the GATK pipeline:
+Preprocessed human genomic data, using GATK pipeline on BASH cmd:
 ## 1. Data quality control:
    * Checking quality of dataset using FASTQC tool --> 2 report files are SRR062634_1_final_fastqc.html and SRR062634_2_final_fastqc.html
    * I also retrieve read group information from FASTQ metadata for the BAM files in GATK later.
