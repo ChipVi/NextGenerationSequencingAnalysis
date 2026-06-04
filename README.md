@@ -17,11 +17,15 @@ Preprocessed human genomic data, using GATK pipeline on BASH cmd:
    After that, we will have the SAM/BAM (Binary) file to store the results of the alignments. The SAM result looks like this:
    * in Notepad
      
-      <img width="628" height="787" alt="image" src="https://github.com/user-attachments/assets/4182253a-565d-44f5-84df-c9539fab0ed9" />
+      <img width="1918" height="377" alt="image" src="https://github.com/user-attachments/assets/dc6865a6-13ac-4ee1-9f16-e743b18712a4" />
       
-   * for illustration:
+   * for illustration in UGene application:
       <img width="914" height="279" alt="image" src="https://github.com/user-attachments/assets/378a679b-5215-4441-bdda-48810b2839e2" />
-   
+
+  Note parameter details in SAM files:
+  
+  <img width="1812" height="748" alt="image" src="https://github.com/user-attachments/assets/421b3cc4-0919-4c3a-bad4-bc4d1ad54ad8" />
+
    Due to the great size of the SAM file, I can not upload the full result of the aligned.sam file on here.
 
 ## 4. Marking Duplicates after Alignments: 
